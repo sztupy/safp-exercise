@@ -1,0 +1,5 @@
+Could not parse line '1.5 imported bottles of perfume at 27.99'. Error: 'Could not process line'
+Could not parse line '1 bottle of perfume at 0.00'. Error: 'Invalid value'
+Could not parse line '0 packet of headache pills at 9.75'. Error: 'Invalid amount'
+Sales Taxes: 0.00
+Total: 0.00
