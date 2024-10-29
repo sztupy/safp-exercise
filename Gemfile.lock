@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.8)
+    minitest (5.25.1)
+    rake (13.2.1)
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  bigdecimal
+  minitest
+  rake
+
+BUNDLED WITH
+   2.5.16

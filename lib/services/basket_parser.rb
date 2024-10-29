@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ReceiptParser
+class BasketParser
   def parse_line(line)
     match_data = line.strip.match(/\A(\d+) (.*) at ([0-9.]+)\Z/)
     raise "Could not process line" unless match_data

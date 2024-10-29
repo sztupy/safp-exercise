@@ -1,24 +1,24 @@
 # Problem Statement
 
-Please see https://gist.github.com/safplatform/792314da6b54346594432f30d5868f36
+This is an example solution for the problem statement at https://gist.github.com/safplatform/792314da6b54346594432f30d5868f36
 
-# To run
+# To run the application
 
-You can run the file against the standard input or against any file(s):
+You can run the file against either the standard input or against any file(s) by providing the filename(s) as an argument:
 
+```bash
+./receipt_printer.rb examples/input1.txt
 ```
-$ ./main.rb examples/input1.txt
-```
+
+The application only uses core ruby functionality and was tested using MRI Ruby 3.3.5
 
 # Tests
 
-Please run
+Please run the following for both integration tests and for the minitest suite. The latter uses `bundler` so you'll need to make sure to run `bundle install` before the first run as well.
 
+```bash
+./run_test.sh
 ```
-$ ./test.sh
-```
-
-To check solution against test input
 
 # Notes
 
